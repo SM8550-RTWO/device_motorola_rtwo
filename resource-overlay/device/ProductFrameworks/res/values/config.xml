@@ -15,12 +15,12 @@
          If the string contains a '%s' format string then that substring will be replaced
          with the value of Build.MODEL , ie
          <string name="config_mms_user_agent">OemName%s</string> -->
-    <string name="config_mms_user_agent">motorolaedge40pro</string>
+    <string name="config_mms_user_agent" translatable="false">motorolaedge40pro</string>
 
     <!-- MMS user agent prolfile url, for example https://uaprof.oem_name.com/DeviceName.xml
          if the string contains a '%s' format string then that substring will be replaced
          with the value of Build.MODEL , ie https://uaprof.oem_name.com/%s.xml -->
-    <string name="config_mms_user_agent_profile_url">http://uaprof.motorola.com/phoneconfig/motov1/Profile/motov1.rdf</string>
+    <string name="config_mms_user_agent_profile_url" translatable="false">http://uaprof.motorola.com/phoneconfig/motov1/Profile/motov1.rdf</string>
 
     <!-- Power Management: Specifies whether to decouple the interactive state of the
          device from the display on/off state.
@@ -57,7 +57,7 @@
              nr5gc : nr5gcSupportedRelease
              eutran5gc : eutran5gcSupportedRelease
     -->
-    <string-array name="config_telephonyEuiccDeviceCapabilities">
+    <string-array name="config_telephonyEuiccDeviceCapabilities" translatable="false">
         <item>gsm,11</item>
         <item>utran,9</item>
         <item>eutran,15</item>
