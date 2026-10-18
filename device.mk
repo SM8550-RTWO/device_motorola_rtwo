@@ -64,6 +64,11 @@ PRODUCT_COPY_FILES += \
 # LiveDisplay
 $(call soong_config_set_bool,livedisplay_sysfs,enable_af,true)
 
+# Moto Camera 4
+TARGET_MOTCAMERA4 := rtwo
+
+$(call inherit-product, vendor/motorola/MotCamera4-sm8550/motcamera4.mk)
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc-service.nxp \
