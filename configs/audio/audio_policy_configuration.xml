@@ -440,7 +440,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 <route type="mix" sink="BT A2DP Headphones"
                        sources="primary output,deep_buffer,direct_pcm,compressed_offload,voip_rx,spatial output"/>
                 <route type="mix" sink="BT A2DP Speaker"
-                       sources="primary output,deep_buffer,direct_pcm,compressed_offload,voip_rx"/>
+                       sources="primary output,deep_buffer,direct_pcm,compressed_offload,voip_rx,spatial output"/>
                 <route type="mix" sink="BT BLE Speaker"
                        sources="primary output,deep_buffer,direct_pcm,compressed_offload,voip_rx"/>
                 <route type="mix" sink="BT BLE Broadcast"
